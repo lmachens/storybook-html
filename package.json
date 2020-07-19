@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy-storybook": "storybook-to-ghpages",
     "storybook": "start-storybook",
     "test": "htmlhint \"src/**/*.html\" && stylelint \"src/**/*.css\" && eslint \"src/**/*.js\""
   },
@@ -22,6 +23,7 @@
     "@storybook/addon-viewport": "^5.3.19",
     "@storybook/html": "^5.3.19",
     "@storybook/preset-scss": "^1.0.2",
+    "@storybook/storybook-deployer": "^2.8.6",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
     "eslint": "^7.5.0",
