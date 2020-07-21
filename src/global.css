@@ -10,4 +10,14 @@ html {
 
 body {
   font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
 }
