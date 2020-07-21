@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy-storybook": "storybook-to-ghpages",
-    "storybook": "start-storybook",
+    "storybook": "start-storybook -s ./public",
     "test": "htmlhint \"src/**/*.html\" && stylelint \"src/**/*.css\" && eslint \"src/**/*.js\""
   },
   "keywords": [],
