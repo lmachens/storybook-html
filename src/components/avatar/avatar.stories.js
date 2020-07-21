@@ -1,6 +1,6 @@
 import "./avatar.css";
 import avatar from "./avatar.html";
 
-export default { title: "Avatar" };
+export default { title: "Components/Avatar" };
 
 export const dog = () => avatar;

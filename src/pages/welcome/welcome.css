@@ -1,0 +1,15 @@
+.welcome {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1fc8db;
+  background-image: linear-gradient(
+    141deg,
+    #9fb8ad 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
