@@ -2,14 +2,15 @@
   "name": "storybook-html",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "deploy-storybook": "storybook-to-ghpages",
+    "build": "build-storybook -c .storybook -o build",
+    "deploy": "storybook-to-ghpages",
     "storybook": "start-storybook",
     "test": "htmlhint \"src/**/*.html\" && stylelint \"src/**/*.css\" && eslint \"src/**/*.js\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Leon Machens",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.6",
