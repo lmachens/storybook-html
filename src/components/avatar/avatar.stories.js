@@ -1,7 +1,9 @@
 import "./avatar.css";
 import avatar from "./avatar.html";
-import centered from "@storybook/addon-centered/html";
 
-export default { title: "Components/Avatar", decorators: [centered] };
+export default {
+  title: "Components/Avatar",
+  parameters: { layout: "centered" },
+};
 
 export const dog = () => avatar;
