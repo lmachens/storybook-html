@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "build": "build-storybook -c .storybook -o build",
-    "deploy": "storybook-to-ghpages",
     "storybook": "start-storybook",
     "test": "htmlhint \"src/**/*.html\" && stylelint \"src/**/*.css\" && eslint \"src/**/*.js\""
   },
@@ -22,7 +21,6 @@
     "@storybook/addon-viewport": "^6.1.15",
     "@storybook/html": "^6.1.15",
     "@storybook/preset-scss": "^1.0.3",
-    "@storybook/storybook-deployer": "^2.8.7",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
     "eslint": "^7.18.0",
