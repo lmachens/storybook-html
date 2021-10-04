@@ -21,14 +21,12 @@
     "@storybook/addon-viewport": "^6.1.17",
     "@storybook/html": "^6.1.17",
     "babel-loader": "^8.2.2",
-    "css-loader": "^5.0.1",
-    "eslint": "^7.19.0",
-    "eslint-config-prettier": "^7.2.0",
-    "htmlhint": "^0.14.2",
-    "prettier": "^2.2.1",
-    "style-loader": "^2.0.0",
-    "stylelint": "^13.9.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "htmlhint": "^0.15.2",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^22.0.0"
   }
 }
