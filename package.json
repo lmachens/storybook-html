@@ -18,6 +18,7 @@
     "@storybook/addon-console": "^1.2.3",
     "@storybook/addon-design-assets": "^6.2.9",
     "@storybook/addon-notes": "^5.3.21",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addon-viewport": "^6.3.9",
     "@storybook/html": "^6.3.9",
     "babel-loader": "^8.2.2",
